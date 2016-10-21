@@ -106,10 +106,10 @@
 			isa = PBXGroup;
 			children = (
 				CFC1DAFE1DB9A15200924C45 /* ViewControllers */,
-				CFC1DAFC1DB9A13E00924C45 /* ModelObjects */,
-				CFC1DAFA1DB9A11800924C45 /* Core */,
-				CFC1DAFB1DB9A12400924C45 /* Storyboards */,
 				CFC1DAFD1DB9A14600924C45 /* ModelControllers */,
+				CFC1DAFC1DB9A13E00924C45 /* ModelObjects */,
+				CFC1DAFB1DB9A12400924C45 /* Storyboards */,
+				CFC1DAFA1DB9A11800924C45 /* Core */,
 			);
 			path = PairRandomizer;
 			sourceTree = "<group>";
