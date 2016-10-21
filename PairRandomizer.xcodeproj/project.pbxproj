@@ -13,6 +13,8 @@
 		CFC1DACC1DB9941A00924C45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFC1DACA1DB9941A00924C45 /* LaunchScreen.storyboard */; };
 		CFC1DAD71DB9941B00924C45 /* PairRandomizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC1DAD61DB9941B00924C45 /* PairRandomizerTests.swift */; };
 		CFC1DAE21DB9941B00924C45 /* PairRandomizerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC1DAE11DB9941B00924C45 /* PairRandomizerUITests.swift */; };
+		CFC1DAF11DB9955F00924C45 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CFC1DAEF1DB9955F00924C45 /* Model.xcdatamodeld */; };
+		CFC1DAF31DB995B700924C45 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC1DAF21DB995B700924C45 /* Stack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		CFC1DADD1DB9941B00924C45 /* PairRandomizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PairRandomizerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFC1DAE11DB9941B00924C45 /* PairRandomizerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairRandomizerUITests.swift; sourceTree = "<group>"; };
 		CFC1DAE31DB9941B00924C45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFC1DAF01DB9955F00924C45 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		CFC1DAF21DB995B700924C45 /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 			children = (
 				CFC1DAC11DB9941A00924C45 /* AppDelegate.swift */,
 				CFC1DAC51DB9941A00924C45 /* Main.storyboard */,
+				CFC1DAEF1DB9955F00924C45 /* Model.xcdatamodeld */,
+				CFC1DAF21DB995B700924C45 /* Stack.swift */,
 				CFC1DAC81DB9941A00924C45 /* Assets.xcassets */,
 				CFC1DACA1DB9941A00924C45 /* LaunchScreen.storyboard */,
 				CFC1DACD1DB9941A00924C45 /* Info.plist */,
@@ -257,6 +263,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFC1DAC21DB9941A00924C45 /* AppDelegate.swift in Sources */,
+				CFC1DAF31DB995B700924C45 /* Stack.swift in Sources */,
+				CFC1DAF11DB9955F00924C45 /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -517,6 +525,19 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CFC1DAEF1DB9955F00924C45 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CFC1DAF01DB9955F00924C45 /* Model.xcdatamodel */,
+			);
+			currentVersion = CFC1DAF01DB9955F00924C45 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = CFC1DAB61DB9941A00924C45 /* Project object */;
 }
