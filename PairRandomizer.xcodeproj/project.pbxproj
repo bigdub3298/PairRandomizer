@@ -17,6 +17,7 @@
 		CFC1DAF31DB995B700924C45 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC1DAF21DB995B700924C45 /* Stack.swift */; };
 		CFC1DAF61DB99AF100924C45 /* Person+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC1DAF41DB99AF100924C45 /* Person+CoreDataClass.swift */; };
 		CFC1DAF71DB99AF100924C45 /* Person+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC1DAF51DB99AF100924C45 /* Person+CoreDataProperties.swift */; };
+		CFC1DAF91DB99D7C00924C45 /* PersonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC1DAF81DB99D7C00924C45 /* PersonController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		CFC1DAF21DB995B700924C45 /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		CFC1DAF41DB99AF100924C45 /* Person+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataClass.swift"; sourceTree = "<group>"; };
 		CFC1DAF51DB99AF100924C45 /* Person+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		CFC1DAF81DB99D7C00924C45 /* PersonController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				CFC1DAC51DB9941A00924C45 /* Main.storyboard */,
 				CFC1DAEF1DB9955F00924C45 /* Model.xcdatamodeld */,
 				CFC1DAF21DB995B700924C45 /* Stack.swift */,
+				CFC1DAF81DB99D7C00924C45 /* PersonController.swift */,
 				CFC1DAC81DB9941A00924C45 /* Assets.xcassets */,
 				CFC1DACA1DB9941A00924C45 /* LaunchScreen.storyboard */,
 				CFC1DACD1DB9941A00924C45 /* Info.plist */,
@@ -272,6 +275,7 @@
 				CFC1DAF71DB99AF100924C45 /* Person+CoreDataProperties.swift in Sources */,
 				CFC1DAC21DB9941A00924C45 /* AppDelegate.swift in Sources */,
 				CFC1DAF31DB995B700924C45 /* Stack.swift in Sources */,
+				CFC1DAF91DB99D7C00924C45 /* PersonController.swift in Sources */,
 				CFC1DAF11DB9955F00924C45 /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
