@@ -18,6 +18,7 @@
 		CFC1DAF61DB99AF100924C45 /* Person+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC1DAF41DB99AF100924C45 /* Person+CoreDataClass.swift */; };
 		CFC1DAF71DB99AF100924C45 /* Person+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC1DAF51DB99AF100924C45 /* Person+CoreDataProperties.swift */; };
 		CFC1DAF91DB99D7C00924C45 /* PersonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC1DAF81DB99D7C00924C45 /* PersonController.swift */; };
+		CFC1DB001DB9A35500924C45 /* PairListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC1DAFF1DB9A35500924C45 /* PairListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		CFC1DAF41DB99AF100924C45 /* Person+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataClass.swift"; sourceTree = "<group>"; };
 		CFC1DAF51DB99AF100924C45 /* Person+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		CFC1DAF81DB99D7C00924C45 /* PersonController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonController.swift; sourceTree = "<group>"; };
+		CFC1DAFF1DB9A35500924C45 /* PairListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PairListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +175,7 @@
 		CFC1DAFE1DB9A15200924C45 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				CFC1DAFF1DB9A35500924C45 /* PairListTableViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -311,6 +314,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFC1DB001DB9A35500924C45 /* PairListTableViewController.swift in Sources */,
 				CFC1DAF61DB99AF100924C45 /* Person+CoreDataClass.swift in Sources */,
 				CFC1DAF71DB99AF100924C45 /* Person+CoreDataProperties.swift in Sources */,
 				CFC1DAC21DB9941A00924C45 /* AppDelegate.swift in Sources */,
