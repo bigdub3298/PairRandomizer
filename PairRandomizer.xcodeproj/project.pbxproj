@@ -13,6 +13,11 @@
 		CFC1DACC1DB9941A00924C45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFC1DACA1DB9941A00924C45 /* LaunchScreen.storyboard */; };
 		CFC1DAD71DB9941B00924C45 /* PairRandomizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC1DAD61DB9941B00924C45 /* PairRandomizerTests.swift */; };
 		CFC1DAE21DB9941B00924C45 /* PairRandomizerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC1DAE11DB9941B00924C45 /* PairRandomizerUITests.swift */; };
+		CFC1DAF11DB9955F00924C45 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CFC1DAEF1DB9955F00924C45 /* Model.xcdatamodeld */; };
+		CFC1DAF31DB995B700924C45 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC1DAF21DB995B700924C45 /* Stack.swift */; };
+		CFC1DAF61DB99AF100924C45 /* Person+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC1DAF41DB99AF100924C45 /* Person+CoreDataClass.swift */; };
+		CFC1DAF71DB99AF100924C45 /* Person+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC1DAF51DB99AF100924C45 /* Person+CoreDataProperties.swift */; };
+		CFC1DAF91DB99D7C00924C45 /* PersonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC1DAF81DB99D7C00924C45 /* PersonController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +50,11 @@
 		CFC1DADD1DB9941B00924C45 /* PairRandomizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PairRandomizerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFC1DAE11DB9941B00924C45 /* PairRandomizerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairRandomizerUITests.swift; sourceTree = "<group>"; };
 		CFC1DAE31DB9941B00924C45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFC1DAF01DB9955F00924C45 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		CFC1DAF21DB995B700924C45 /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		CFC1DAF41DB99AF100924C45 /* Person+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataClass.swift"; sourceTree = "<group>"; };
+		CFC1DAF51DB99AF100924C45 /* Person+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		CFC1DAF81DB99D7C00924C45 /* PersonController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +105,13 @@
 		CFC1DAC01DB9941A00924C45 /* PairRandomizer */ = {
 			isa = PBXGroup;
 			children = (
+				CFC1DAF41DB99AF100924C45 /* Person+CoreDataClass.swift */,
+				CFC1DAF51DB99AF100924C45 /* Person+CoreDataProperties.swift */,
 				CFC1DAC11DB9941A00924C45 /* AppDelegate.swift */,
 				CFC1DAC51DB9941A00924C45 /* Main.storyboard */,
+				CFC1DAEF1DB9955F00924C45 /* Model.xcdatamodeld */,
+				CFC1DAF21DB995B700924C45 /* Stack.swift */,
+				CFC1DAF81DB99D7C00924C45 /* PersonController.swift */,
 				CFC1DAC81DB9941A00924C45 /* Assets.xcassets */,
 				CFC1DACA1DB9941A00924C45 /* LaunchScreen.storyboard */,
 				CFC1DACD1DB9941A00924C45 /* Info.plist */,
@@ -256,7 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFC1DAF61DB99AF100924C45 /* Person+CoreDataClass.swift in Sources */,
+				CFC1DAF71DB99AF100924C45 /* Person+CoreDataProperties.swift in Sources */,
 				CFC1DAC21DB9941A00924C45 /* AppDelegate.swift in Sources */,
+				CFC1DAF31DB995B700924C45 /* Stack.swift in Sources */,
+				CFC1DAF91DB99D7C00924C45 /* PersonController.swift in Sources */,
+				CFC1DAF11DB9955F00924C45 /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -499,6 +519,7 @@
 				CFC1DAE81DB9941B00924C45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CFC1DAE91DB9941B00924C45 /* Build configuration list for PBXNativeTarget "PairRandomizerTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +528,7 @@
 				CFC1DAEB1DB9941B00924C45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CFC1DAEC1DB9941B00924C45 /* Build configuration list for PBXNativeTarget "PairRandomizerUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,8 +537,22 @@
 				CFC1DAEE1DB9941B00924C45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CFC1DAEF1DB9955F00924C45 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CFC1DAF01DB9955F00924C45 /* Model.xcdatamodel */,
+			);
+			currentVersion = CFC1DAF01DB9955F00924C45 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = CFC1DAB61DB9941A00924C45 /* Project object */;
 }
