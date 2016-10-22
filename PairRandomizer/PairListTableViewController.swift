@@ -55,25 +55,21 @@ class PairListTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         return "Group \(section + 1)"
     }
-    /*
-    // Override to support conditional editing of the table view.
-    override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
-        // Return false if you do not want the specified item to be editable.
-        return true
-    }
-    */
 
-    /*
     // Override to support editing the table view.
     override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == .delete {
-            // Delete the row from the data source
-            tableView.deleteRows(at: [indexPath], with: .fade)
+            let index = (indexPath.section * 2) + indexPath.row
+            
+            let person = people[index]
+            
+            PersonController.sharedController.removePerson(person: person)
+            people.remove(at: index)
+            tableView.reloadData()
         } else if editingStyle == .insert {
             // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
         }    
     }
-    */
 
 
     // MARK: - Actions
@@ -100,5 +96,23 @@ class PairListTableViewController: UITableViewController {
         addPersonAlert.addAction(saveAction)
         
         self.present(addPersonAlert, animated: true, completion: nil)
+    }
+    
+    @IBAction func randomizeButtonTapped(_ sender: UIButton) {
+        randomize()
+        tableView.reloadData()
+    }
+    // MARK: - Helper functions
+    
+    func randomize() {
+        for i in 0 ..< people.count {
+            swap(i: i, j: Int(arc4random_uniform(UInt32(people.count))))
+        }
+    }
+    
+    func swap(i: Int, j: Int) {
+        let tempPerson = people[i]
+        people[i] = people[j]
+        people[j] = tempPerson
     }
 }
