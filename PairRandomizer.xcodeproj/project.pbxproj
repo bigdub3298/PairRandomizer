@@ -18,6 +18,7 @@
 		CFC1DAF61DB99AF100924C45 /* Person+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC1DAF41DB99AF100924C45 /* Person+CoreDataClass.swift */; };
 		CFC1DAF71DB99AF100924C45 /* Person+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC1DAF51DB99AF100924C45 /* Person+CoreDataProperties.swift */; };
 		CFC1DAF91DB99D7C00924C45 /* PersonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC1DAF81DB99D7C00924C45 /* PersonController.swift */; };
+		CFC1DB001DB9A35500924C45 /* PairListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC1DAFF1DB9A35500924C45 /* PairListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		CFC1DAF41DB99AF100924C45 /* Person+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataClass.swift"; sourceTree = "<group>"; };
 		CFC1DAF51DB99AF100924C45 /* Person+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		CFC1DAF81DB99D7C00924C45 /* PersonController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonController.swift; sourceTree = "<group>"; };
+		CFC1DAFF1DB9A35500924C45 /* PairListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PairListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,16 +107,11 @@
 		CFC1DAC01DB9941A00924C45 /* PairRandomizer */ = {
 			isa = PBXGroup;
 			children = (
-				CFC1DAF41DB99AF100924C45 /* Person+CoreDataClass.swift */,
-				CFC1DAF51DB99AF100924C45 /* Person+CoreDataProperties.swift */,
-				CFC1DAC11DB9941A00924C45 /* AppDelegate.swift */,
-				CFC1DAC51DB9941A00924C45 /* Main.storyboard */,
-				CFC1DAEF1DB9955F00924C45 /* Model.xcdatamodeld */,
-				CFC1DAF21DB995B700924C45 /* Stack.swift */,
-				CFC1DAF81DB99D7C00924C45 /* PersonController.swift */,
-				CFC1DAC81DB9941A00924C45 /* Assets.xcassets */,
-				CFC1DACA1DB9941A00924C45 /* LaunchScreen.storyboard */,
-				CFC1DACD1DB9941A00924C45 /* Info.plist */,
+				CFC1DAFE1DB9A15200924C45 /* ViewControllers */,
+				CFC1DAFD1DB9A14600924C45 /* ModelControllers */,
+				CFC1DAFC1DB9A13E00924C45 /* ModelObjects */,
+				CFC1DAFB1DB9A12400924C45 /* Storyboards */,
+				CFC1DAFA1DB9A11800924C45 /* Core */,
 			);
 			path = PairRandomizer;
 			sourceTree = "<group>";
@@ -135,6 +132,52 @@
 				CFC1DAE31DB9941B00924C45 /* Info.plist */,
 			);
 			path = PairRandomizerUITests;
+			sourceTree = "<group>";
+		};
+		CFC1DAFA1DB9A11800924C45 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				CFC1DAF21DB995B700924C45 /* Stack.swift */,
+				CFC1DAC11DB9941A00924C45 /* AppDelegate.swift */,
+				CFC1DAC81DB9941A00924C45 /* Assets.xcassets */,
+				CFC1DAEF1DB9955F00924C45 /* Model.xcdatamodeld */,
+				CFC1DACD1DB9941A00924C45 /* Info.plist */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		CFC1DAFB1DB9A12400924C45 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				CFC1DAC51DB9941A00924C45 /* Main.storyboard */,
+				CFC1DACA1DB9941A00924C45 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		CFC1DAFC1DB9A13E00924C45 /* ModelObjects */ = {
+			isa = PBXGroup;
+			children = (
+				CFC1DAF41DB99AF100924C45 /* Person+CoreDataClass.swift */,
+				CFC1DAF51DB99AF100924C45 /* Person+CoreDataProperties.swift */,
+			);
+			name = ModelObjects;
+			sourceTree = "<group>";
+		};
+		CFC1DAFD1DB9A14600924C45 /* ModelControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CFC1DAF81DB99D7C00924C45 /* PersonController.swift */,
+			);
+			name = ModelControllers;
+			sourceTree = "<group>";
+		};
+		CFC1DAFE1DB9A15200924C45 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CFC1DAFF1DB9A35500924C45 /* PairListTableViewController.swift */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,6 +314,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFC1DB001DB9A35500924C45 /* PairListTableViewController.swift in Sources */,
 				CFC1DAF61DB99AF100924C45 /* Person+CoreDataClass.swift in Sources */,
 				CFC1DAF71DB99AF100924C45 /* Person+CoreDataProperties.swift in Sources */,
 				CFC1DAC21DB9941A00924C45 /* AppDelegate.swift in Sources */,
